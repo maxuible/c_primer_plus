@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cc -std=c89 $1 -Wall -Wextra
+cc $1 -Wall -Wextra
 ./a.out
