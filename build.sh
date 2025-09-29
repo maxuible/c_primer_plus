@@ -3,5 +3,5 @@
 set -e
 set -x
 
-cc $1 -Wall -Wextra
+cc $1 -Wall -Wextra -g
 ./a.out
